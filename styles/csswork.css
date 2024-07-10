@@ -48,6 +48,7 @@ font-weight: 600;
     width: 1220px;
     height: 1500px;
     margin-left:148px;
+    padding-bottom: 70px;
 }
 
 .second-page-top-heading{
@@ -71,8 +72,9 @@ padding-bottom: 48px;
 opacity: 0.7;
 padding-left: 71px;
 padding-right: 71px;
+
 }
-.card{
+.card-for-second-page{
     display: flex;
     justify-content: space-around;
     border-radius: 16px;
@@ -81,27 +83,29 @@ padding-right: 71px;
     margin-right: 70px;
     margin-bottom: 30px;
     padding: 55px;
-    
+    font-family: Azeret Mono;
 }
 .card-left{
     text-align: left;
+    text-decoration: none;
 }
 .card-heading  #card-heading-two{
     color: rgba(13, 19, 33, 0.7);
+
     font-family: Azeret Mono;
-    font-size: 24px;
-    font-weight: 0;
+    font-size: 20px;
+    font-weight: 600;
     margin-bottom: 16px;
     padding-top: 48px;
     padding-bottom: 18px;
 }
-.card-paragraph #card-paragraph-two{
+.second-page-card-heading #card-paragraph-two{
     color: rgb(13, 19, 33);
     font-family: Azeret Mono;
-    font-size: 16px;
-    font-weight: 400;
+    font-size: 8px;
+    font-weight: 350;
     padding-bottom: 32px;
-    opacity: 0.6;
+    opacity: 0.7;
 
 }
 .learn-more-btn{
@@ -111,6 +115,8 @@ padding-top: 8px;
 padding-bottom: 8px;
 padding-left: 15px;
 padding-right: 15px;
+text-decoration-line: none;
+
 
 
 }
@@ -188,6 +194,9 @@ margin-right: 150px;
 padding-bottom: 48px;
 
 }
+.anchor{
+    text-decoration: underline;
+}
 .fourth-page-card-box{
     display: flex;
     justify-content: space-evenly;
@@ -233,7 +242,7 @@ background: rgba(255, 223, 0, 0.05);
 
 
 .fifth-page{
-    margin-bottom: 150px;
+    margin-bottom: 50px;
 }
 
 
@@ -268,12 +277,14 @@ opacity: 0.7;
     text-align: center;
     background-image: url('../assets/handshake.jpg');
     background-repeat: no-repeat;
-    position: center;
+    background-position: center;
+    background-size: cover;
     border-radius: 16px; 
     padding-bottom: 64px;  
-    width: 100%;
-    margin-bottom: 80px;
-    /* height: 1450px; */
+    margin-bottom: 70px;
+    margin-left: 150px;
+    margin-right: 150px;
+    background-blend-mode: darken;
 }
 .sixth-page-heading{
     color: rgb(255, 255, 255);
@@ -299,15 +310,25 @@ background: rgb(255, 255, 255);
 margin-bottom: 100%;
 }
 .sixth-page-input{
-    padding: 19px 100px 19px 20px;
+    padding: 20px;
 }
-
+.comment-area{
+    
+    outline: none;
+    
+}
+.btn-comment{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    cursor: pointer;
+    border-radius: 6px;
+}
 
 footer{
     display: flex;
     justify-content: space-between;
-    /* margin-right: 150px;
-    margin-left: 150px; */
     background-color: #D0C6C6;
     width: auto;
     
@@ -320,7 +341,7 @@ font-family: Azeret Mono;
 font-size: 18px;
 font-weight: 600;
 margin-left: 150px;
-padding-top: 32px;
+padding-top: 25px;
 
 
 }
@@ -330,6 +351,14 @@ padding-top: 32px;
 }
 .footer-img-section{
     margin-right: 150px;
-    padding-top: 32px;
-    padding-bottom: 32px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.six-comment{
+    display: flex;
+    justify-content: space-evenly;
+}
+*{
+    text-decoration: none;
+    color: black;
 }
